@@ -91,7 +91,7 @@ class Asm:
         for counter in range(1, len(lengths)+1):
             this_n50 = sum(lengths[0:counter])
             if this_n50 > halfsize:
-                n50 = lengths[counter]
+                n50 = lengths[counter-1]
                 break
         return n50
 

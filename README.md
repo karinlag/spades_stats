@@ -37,7 +37,8 @@ statistics for that file.
 ###Output
 
 Statistics is calculated for each file, and the results
-are written to one output file. 
+are written to one output file. The output file will be
+prefixed with string given to option -p.
 
 The output is output one line per scaffolds file, with
 the following columns (first line is header line):

@@ -107,7 +107,7 @@ class Asm:
         above = []
         i = 0
         while i < len(len_cov_sorted):
-            if len_cov_sorted[i].len > self.n50:
+            if len_cov_sorted[i].len >= self.n50:
                 above.append(len_cov_sorted[i])
             i += 1
 

@@ -43,8 +43,8 @@ The output is output one line per scaffolds file, with
 the following columns (first line is header line):
 
 |Column           | Description 
-|-----------------|------------ 
-|headers          | name of input file, incl relative path
+|-------------------|------------ 
+|Scaffolds_filename | name of input file, incl relative path
 |N50              | N50 value for assembly
 |\#contigs>=N50   | the fewest number of contigs whose sum makes up N50
 |coverage_contigs | average coverage over the #contigs>=N50

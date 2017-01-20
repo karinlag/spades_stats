@@ -21,7 +21,7 @@ class Asm:
     This class contains a scaffoldsfile and statistics calculated on the basis
     of the fasta description headers found in the file.
     """
-    headers = "Scaffolds_filename\tN50\t #contigs>N50 \
+    headers = "Scaffolds_filename\tN50\t #contigs>=N50 \
         \tcoverage_contigs>N50\tminlen\tmaxlen\tavglen\tmedianlen\tstdlen \
         \tmincov\tmaxcov\tavgcov\tmediancov\tstdcov\t"
 

@@ -88,7 +88,7 @@ class Asm:
 
         n50 = "NA"
         lengths.sort(reverse=True)
-        for counter in range(0, len(lengths)):
+        for counter in range(1, len(lengths)+1):
             this_n50 = sum(lengths[0:counter])
             if this_n50 > halfsize:
                 n50 = lengths[counter]

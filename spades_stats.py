@@ -202,7 +202,7 @@ def print_output(results, prefix):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--directory", metavar="DIRECTORY",
-                        help="Directory containing directories with \ "
+                        help="Directory containing directories with " +
                              "scaffolds.fasta in them")
     parser.add_argument("-p", "--prefix", metavar="STRING",
                         help="Prefix string for output files")

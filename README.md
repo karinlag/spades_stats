@@ -3,7 +3,7 @@
 Calculating statistics for SPAdes assemblies based on the
 coverage and length found in the fasta description line.
 
-By Karin Lagesen | @karinlag |
+By Karin Lagesen | @karinlag 
 
 ## How to run
 
